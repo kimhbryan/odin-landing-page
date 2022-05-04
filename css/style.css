@@ -88,19 +88,19 @@ a {
     align-items: center;
 }
 
-
 .info .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50vw;
+    padding: 48px 0px;
 }
 
 .info .title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 48px 0px;
+    margin-bottom: 48px;
 }
 
 .info .items {
@@ -126,4 +126,32 @@ a {
     text-align: center;
     color: #1F2937;
     max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px;
+    gap: 16px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .attribution {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
