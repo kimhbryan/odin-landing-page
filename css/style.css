@@ -5,7 +5,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -195,4 +196,14 @@ a {
     color: #F9FAF8;
     padding: 8px 24px;
     font-size: 18px;
+}
+
+.footer .copyright {
+    color: #E5E7EB;
+    padding: 24px 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
