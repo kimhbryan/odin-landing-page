@@ -139,7 +139,7 @@ a {
     width: 35vw;
     display: flex;
     flex-direction: column;
-    padding: 48px 0px;
+    padding: 64px 0px;
     gap: 16px;
 }
 
@@ -154,4 +154,45 @@ a {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.signup-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px;
+}
+
+.signup-banner .banner {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-banner .content {
+    display: flex;
+    padding: 64px 128px;
+    gap: 128px;
+    align-items: center;
+}
+
+.signup-banner .call-to-action {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-banner .subtext {
+    color: #E5E7EB;
+}
+
+.signup-banner button {
+    background-color: #3882F6;
+    border: solid white;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    font-size: 18px;
 }
