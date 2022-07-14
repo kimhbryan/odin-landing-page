@@ -1,0 +1,1 @@
+![](./resources/full-design.png)
